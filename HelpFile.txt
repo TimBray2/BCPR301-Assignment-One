@@ -1,0 +1,34 @@
+Documented commands (type help <topic>):
+========================================
+display  exit  help  load  pickle  save  validate  welcome
+
+>>> help display
+display [type] (unchecked, stored, graph, database)
+Display all the stored data
+
+>>> help exit
+exit
+Exits the command line
+
+>>> help help
+List available commands with "help" or detailed help with "help cmd".
+
+>>> help load
+load [location] (file, database)
+Load from the database or file
+
+>>> help save
+save [database]
+Save the imported data. Can be used as "save" or "save database"
+
+>>> help validate
+validate
+Validates all loaded data
+
+>>> help welcome
+welcome
+Welcomes the user to the program
+
+>>> help pickle
+pickle [type] (export, load)
+Export the stored data to a pickle file or load data from the pickle file.
